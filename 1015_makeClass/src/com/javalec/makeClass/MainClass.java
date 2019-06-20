@@ -11,8 +11,10 @@ public class MainClass {
 		ManClass mc = new ManClass();
 		ManClass mc1 = new ManClass(15, 1.6, 50, "010-1234-5678");
 		
-		mc.getAge();
-		mc.setAge(16);
+		mc1.getAge();
+		System.out.println(mc1.getAge());
+		mc1.setAge(16);
+		System.out.println(mc1.getAge());
 		
 		double d = mc1.calculateBMI();
 		System.out.println(d);

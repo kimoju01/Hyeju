@@ -8,7 +8,7 @@ public class Student {
 	private String major;
 	// private 으로 인스턴스 변수들을 은닉화.
 	
-	public Student(String name, int age, int studentNum, String major) {
+	public Student(String name, int age, int studentNum, String major) {	//생성자
 		this.name = name;	//요 객체의 name(파라미터)이 name으로 생성된다.
 		this.age = age;
 		this.studentNum = studentNum;
@@ -33,7 +33,7 @@ public class Student {
 	}
 
 	public String getName() {
-		return name;
+		return name;0
 	}
 
 	public void setName(String name) {
